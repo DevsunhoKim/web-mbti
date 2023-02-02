@@ -25,7 +25,7 @@ body {
     margin-right: auto;
     margin-bottom: 20px;
 }
-
+/* btn 과 세부 btn 클래스로 구분하여 구현 */
 .btn {
     max-width: 500px;
     height: 100px;
