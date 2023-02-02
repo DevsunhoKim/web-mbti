@@ -1,0 +1,83 @@
+body {
+    font-family: "Pretendard Variable",sans-serif;
+}
+
+.page-title {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: #12B491;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.page-subtitle {
+    width: 240px;
+    height: 50px;
+    border: 5px solid #FFA32D;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFA32D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.btn {
+    max-width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 0.1s;
+}
+
+.btn-orange {
+    background-color: #FFA32D;
+    box-shadow: 0 14px 0 #E66000;
+    color: #FFFFFF;
+}
+.btn-orange:active {
+    box-shadow: 0 4px 0 #E66000;
+    transform:translateY(10px) ;
+    
+}
+.btn-green {
+    background-color: #32BFA1;
+    box-shadow: 0 14px 0 #299A82 ;
+    color: #FFFFFF;
+
+
+
+}
+.btn-green:active {
+    box-shadow: 0 4px 0 #299A82 ;
+    transform:translateY(10px) ;
+}
+.btn-gray{
+    background-color: #F2F4F6;
+    box-shadow: 0 14px 0 #DFE1E2;
+    color: #444444;
+}
+.btn-gray:active {
+    box-shadow: 0 4px 0 #DFE1E2 ;
+    transform:translateY(10px) ;
+}
+
+.btn-small{
+max-width: 350px;
+height: 70px;
+font-size: 26px;
+margin-bottom: 30px;
+}
