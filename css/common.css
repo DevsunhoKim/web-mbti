@@ -1,7 +1,12 @@
 body {
     font-family: "Pretendard Variable",sans-serif;
+    word-break: keep-all;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
-
+img {
+    display: block;
+}
 .page-title {
     font-size: 50px;
     font-weight: 800;
@@ -81,19 +86,4 @@ height: 70px;
 font-size: 26px;
 margin-bottom: 30px;
 }
-
-.button {
-    background-color: #FFA32D; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
-    transition: all 0.3s ease-in-out;
-    diss
-  }
-  
-  button:hover {
-    transform: translateY(-2px);
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
-  }
-  
 
