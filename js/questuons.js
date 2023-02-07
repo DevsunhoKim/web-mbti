@@ -18,5 +18,29 @@ choice1El.innerHTML = question.choices[0].text
 choice2El.innerHTML = question.choices[1].text
 proressValueEl.style.width = (currentNumber + 1) * 10 + '%'
 }
+function nextQuestion(choiceNumber) {
+    if (currentNumber === questions.length - 1) {
+        showResultPage()
+        return
+    }
+    const question =questions[currentNumber]
+    mbti = mbti + question.choices[choiceNumber].value
+    // mbti = 'infj'
+    currentNumber = currentNumber + 1
+    renderQuestion()
+}
+
+function showResultPage() {
+     location.href = '/results.html?mbti=' + mbti
+
+}
+
+choice1El.addEventListener('click', function() {
+    nextQuestion(0)
+})
+
+choice2El.addEventListener('click', function() {
+    nextQuestion(1)
+})
 
 renderQuestion()
