@@ -1,77 +1,67 @@
 body {
-    background-image:  url("../images/questions_bg.jpg");
+    background-image: url("../images/questions_bg.jpg");
     background-position: top center;
     background-repeat: no-repeat;
-}
-
-.progress {
+  }
+  .progress {
     max-width: 500px;
     height: 20px;
-    background-color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
     margin-bottom: 60px;
-}
-
-.progress .value {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+  }
+  .progress .value {
     width: 10%;
     height: 20px;
     background-color: #FFB103;
     border-radius: 10px;
     transition: 0.2s;
-}
-
-.question-box {
+  }
+  .question-box {
     max-width: 420px;
-    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 40px;
     padding-right: 40px;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 20px;
     box-shadow: 0 4px 25px #DDE2E8;
-}
-
-.question-box .number {
-    font-size: 60px;
+    background-color: #FFFFFF;
+  }
+  .question-box .number {
+    margin-bottom: 30px;
     font-weight: 900;
+    font-size: 60px;
     text-align: center;
     color: #2EC7A6;
-    margin-bottom: 30px;
-}
-
-.question-box .question {
-    font-size: 30px;
+  }
+  .question-box .question {
+    margin-bottom: 40px;
     font-weight: 700;
+    font-size: 30px;
     line-height: 1.5;
     text-align: center;
-    margin-bottom: 40px;
-}
-
-.question-box .choice {
+  }
+  .question-box .choice {
     border-radius: 120px;
     font-size: 22px;
-    
-}
-
-@media (max-width: 640px) {
-    .progress{
-        margin-bottom: 30px;
+  }
+  
+  @media (max-width: 640px) {
+    .progress {
+      margin-bottom: 30px;
     }
-
     .question-box {
-        padding-left: 12px;
-        padding-right: 12px;
+      padding-left: 12px;
+      padding-right: 12px;
     }
-
     .question-box .question {
-        font-size: 28px;
+      font-size: 28px;
     }
-
     .question-box .choice {
-        font-size: 20px;
+      font-size: 20px;
     }
-}
+  }

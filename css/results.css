@@ -1,28 +1,30 @@
 body {
     background-color: #EAF8FF;
     background-image: url("../images/result_bg.jpg");
-    background-position: top center ;
+    background-position: top center;
     background-repeat: no-repeat;
-}
-
-.character {
+  }
+  .character {
     width: 100%;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-}
-
-.result {
+  }
+  .result {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-}
-.result .box {
+  }
+  .result .box {
     min-height: 70px;
-    background-color: #FFFFFF;
     margin-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 20px;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,46 +32,37 @@ body {
     font-weight: 500;
     line-height: 1.4;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 10;
-    padding-right: 10;
-}
-
- .result h3 {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 1.4;
-    text-align: center;
+  }
+  .result h3 {
     margin-top: 40px;
     margin-bottom: 20px;
-}
-
-.result .jobs {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .result .jobs {
     height: 200px;
     display: flex;
     gap: 10px;
-}
-
-.result .job {
+  }
+  .result .job {
     flex: 1;
+    border: 1px solid #FFE603;
+    border-radius: 20px;
     background-color: #FFFFFF;
     background-image: url("../images/result_star.png");
-    background-position: center center;
     background-repeat: no-repeat;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 1.4;
-    text-align: center;
+    background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #FFE603;
-    border-radius: 20px;
-
-}
-
-.result .lecture img {
-    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .result .lecture img {
     width: 100%;
-}
+    margin-bottom: 40px;
+  }
